@@ -1,11 +1,38 @@
 .header {
-    padding: 9px 180px 180px 180px;
-    justify-content: center;
+    padding: 0px 180px 90px 180px;
 }
 
 .hori-space {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 90px;
+}
+
+.header-left {
+    font-size: 24px;
+    color: #f9faf8;
+    align-self: center;
+    font-weight: bold;
+}
+
+.header-right, .subtext, a {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0px;
+}
+
+.header-right {
+    align-items:flex-start;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 9px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .hori {
@@ -15,6 +42,25 @@
 
 .hero {
     width: 494px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0px;
+}
+
+.signup-header {
+    background-color: #3882f6;
+    color: #f9f9f9;
+    width: 25%;
+    border-radius: 6px;
+    border: none;
+    font-weight: bold;
 }
 
 .image {
