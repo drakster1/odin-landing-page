@@ -76,6 +76,13 @@ a {
     align-items: center;
 }
 
+.title-info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f3927;
+
+}
+
 .row {
     display: flex;
 }
@@ -87,6 +94,8 @@ a {
 
 img {
     width: 180px;
+    border: 5px double #3882f6;
+    border-radius: 6px;
 }
 
 .section2 {
