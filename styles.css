@@ -106,8 +106,16 @@ img {
     align-items: center;
 }
 
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
 .quote-person {
     align-self: flex-end;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .section3 {
