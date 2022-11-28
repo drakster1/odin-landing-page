@@ -130,6 +130,17 @@ img {
     padding: 36px 72px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.signup-modal {
+    background-color: #3882f6;
+    color: #f9f9f9;
+    width: 13%;
+    height: 27px;
+    border: 2px solid #f9f9f9;
+    border-radius: 6px;
+    font-weight: bold;
 }
 
 .footer {
